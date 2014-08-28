@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var vc = UIViewController()
         vc.view.backgroundColor = UIColor.redColor()
-        vc.title = "Bzzwrds"
-        self.window!.rootViewController = UINavigationController(rootViewController: vc)
+        self.window!.rootViewController = vc
         
         self.window!.makeKeyAndVisible()
         return true
